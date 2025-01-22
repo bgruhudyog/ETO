@@ -1,4 +1,10 @@
+// next.config.js
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-module.exports = nextConfig;
+const nextConfig = {
+    reactStrictMode: true,
+    images: {
+      domains: ['lh3.googleusercontent.com'], // For Google profile images
+    }
+  }
+  
+  module.exports = nextConfig
